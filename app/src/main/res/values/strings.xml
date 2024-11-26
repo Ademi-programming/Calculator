@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">Calculator</string>
+    <string-array name="dropdown_items">
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <item>Option 3</item>
+    </string-array>
+    <string name="app_name">Calculator
+      <string name="next">Next</string>
+    <string name="explore_the_nightlife_of_your_city">Explore the nightlife of your city</string>
+    <string name="category">Category</string>
+    <string name="accessebility">Accessebility</string>
+    <string name="participants">Participants</string>
+    <string name="free">free</string>
+    <string name="price">price💰</string>
+    <string name="Price">Price</string>
+    <string name="app_name">DropdownExample</string>
+    </string>
+
+    <array name="initial_slider_values">
+        <item>10.0</item>
+        <item>50.0</item>
+    </array>
 </resources>
