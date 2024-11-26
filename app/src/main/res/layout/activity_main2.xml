@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_grey"
+    tools:context=".MainActivity2">
+
+    <View
+        android:id="@+id/white_square"
+        android:layout_width="390dp"
+        android:layout_height="250dp"
+        android:background="@drawable/shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore the nightlife of your city"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/white_square"
+        app:layout_constraintEnd_toEndOf="@id/white_square"
+        app:layout_constraintStart_toStartOf="@id/white_square"
+        app:layout_constraintTop_toTopOf="@id/white_square" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="390dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/gradient"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/white_square" />
+
+
+    <TextView
+        android:id="@+id/btn_category"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="@color/light_blue"
+        android:paddingHorizontal="45dp"
+        android:paddingVertical="2dp"
+        android:text="Category"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/white_square" />
+
+    <View
+        android:id="@+id/v_heart"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="20dp"
+        android:background="@drawable/heart"
+        app:layout_constraintEnd_toEndOf="@id/white_square"
+        app:layout_constraintTop_toTopOf="@id/white_square" />
+
+    <TextView
+        android:id="@+id/free"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="28dp"
+        android:text="Free"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/white_square"
+        app:layout_constraintStart_toStartOf="@id/white_square" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/free"
+        app:layout_constraintStart_toStartOf="@id/free"
+        app:layout_constraintTop_toBottomOf="@id/free" />
+
+    <View
+        android:layout_width="32dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/user_icon1"
+        app:layout_constraintBottom_toBottomOf="@id/white_square"
+        app:layout_constraintEnd_toEndOf="@id/white_square"
+        app:layout_constraintStart_toStartOf="@id/white_square" />
+
+    <View
+        android:id="@+id/icon_2"
+        android:layout_width="32dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/user_icon2"
+        app:layout_constraintBottom_toBottomOf="@id/white_square"
+        app:layout_constraintEnd_toEndOf="@id/white_square"
+        app:layout_constraintStart_toStartOf="@id/white_square" />
+
+    <View
+        android:layout_width="32dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="-60dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/user_icon3"
+        app:layout_constraintBottom_toBottomOf="@id/white_square"
+        app:layout_constraintEnd_toEndOf="@id/white_square"
+        app:layout_constraintStart_toStartOf="@id/white_square" />
+
+    <View
+        android:layout_width="32dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="-130dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/user_icon4"
+        app:layout_constraintBottom_toBottomOf="@id/white_square"
+        app:layout_constraintEnd_toEndOf="@id/white_square"
+        app:layout_constraintStart_toStartOf="@id/white_square" />
+
+    <View
+        android:id="@+id/gradient"
+        android:layout_width="81dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="220sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="34dp"
+        android:background="@drawable/figure"
+        app:layout_constraintBottom_toBottomOf="@id/white_square"
+        app:layout_constraintEnd_toEndOf="@id/white_square" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="5dp"
+        android:text="Participants"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@id/white_square"
+        app:layout_constraintEnd_toEndOf="@id/white_square"
+        app:layout_constraintStart_toStartOf="@id/white_square" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="6dp"
+        android:text="Accesbility"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@id/white_square"
+        app:layout_constraintEnd_toEndOf="@id/white_square" />
+
+    <Spinner
+        android:layout_marginTop="50dp"
+        android:background="@drawable/spinner"
+        android:id="@+id/spinner"
+        android:layout_width="200dp"
+        android:layout_height="54dp"
+        android:popupBackground="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/btn_next"
+        android:layout_marginEnd="180dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <com.google.android.material.slider.RangeSlider
+        android:id="@+id/price_slider"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:thumbTint="@color/navy"
+        app:trackHeight="6dp"
+        android:valueFrom="0"
+        android:valueTo="50"
+        app:layout_constraintTop_toBottomOf="@id/btn_next"
+        app:values="@array/initial_slider_values"
+        app:layout_constraintStart_toEndOf="@id/spinner"/>
+
+    <com.google.android.material.slider.RangeSlider
+        app:layout_constraintTop_toBottomOf="@id/price_slider"
+        android:id="@+id/accessibility_slider"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:thumbTint="@color/navy"
+        app:trackHeight="6dp"
+        android:valueFrom="0"
+        android:valueTo="50"
+        app:values="@array/initial_slider_values"
+        app:layout_constraintStart_toEndOf="@id/spinner"/>
+
+    <TextView
+        android:text="Category"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/spinner"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/spinner"
+        android:layout_marginBottom="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Price"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/btn_next"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/btn_next"
+        android:layout_marginEnd="130dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Accessibility"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/btn_next"
+        android:layout_marginTop="70dp"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/btn_next"
+        android:layout_marginEnd="85dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    78/
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_arrow_down"
+        android:contentDescription="Dropdown arrow"
+        app:layout_constraintBottom_toBottomOf="@id/spinner"
+        app:layout_constraintEnd_toEndOf="@id/spinner"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="8dp" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -152,11 +152,12 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
             android:layout_marginBottom="10dp"
-            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <com.google.android.material.button.MaterialButton
                 style="@style/Dark.grey"
                 android:textAlignment="textStart"
@@ -165,6 +166,7 @@
                 android:onClick="numberClick"
                 android:layout_width="172dp"
                 android:layout_marginHorizontal="15dp"/>
+
             <com.google.android.material.button.MaterialButton
                 style="@style/Dark.grey"
                 android:onClick="operationClick"
